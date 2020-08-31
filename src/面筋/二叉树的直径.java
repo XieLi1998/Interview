@@ -3,7 +3,7 @@ package 面筋;
 /**
  * Created by xieli on 2020/8/30.
  */
-public class diameterOfBinaryTree {
+public class 二叉树的直径 {
 
     //543. 二叉树的直径
     public class TreeNode {

@@ -3,7 +3,7 @@ package 面筋;
 /**
  * Created by xieli on 2020/8/30.
  */
-public class isBalanced {
+public class 平衡树判定 {
     public class TreeNode {
         int val;
         TreeNode left;

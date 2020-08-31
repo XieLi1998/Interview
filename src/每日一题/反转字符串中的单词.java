@@ -3,7 +3,7 @@ package 每日一题;
 /**
  * Created by xieli on 2020/8/30.
  */
-public class reverseWords {
+public class 反转字符串中的单词 {
 
     //557.  反转字符串中的单词 III
     public String reverseWords(String s) {

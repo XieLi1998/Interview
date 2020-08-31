@@ -3,7 +3,7 @@ package 面筋;
 /**
  * Created by xieli on 2020/8/31.
  */
-public class multiply {
+public class 大数相乘 {
 
     //43. 字符串相乘，又名“大数相乘”
     public String multiply(String num1, String num2) {

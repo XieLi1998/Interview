@@ -3,7 +3,7 @@ package 高频;
 /**
  * Created by xieli on 2020/8/30.
  */
-public class reverseList {
+public class 反转部分链表 {
     public class ListNode {
         int val;
         ListNode next;
