@@ -16,7 +16,7 @@ public class 平安科技 {
         int left = max3(a, b + c, c);
         int right = max3(a, b, b + c);
         double res = top * 0.1 / (left + right);
-        res = Math.round(res * 100) / 100.0;
+        res = (double) Math.round(res * 100) / 100.0;
         System.out.println(res);
     }
 
