@@ -34,4 +34,16 @@ public class 实现strStr {
         return -1;
     }
 
+    public int strStrV2(String txt, String pat) {
+        int L = pat.length();
+        int n = txt.length();
+
+        for (int start = 0; start < n - L + 1; start++) {
+            if (txt.substring(start, start + L).equals(pat))
+                return start;
+        }
+
+        return -1;
+    }
+
 }
