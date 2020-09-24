@@ -1,4 +1,4 @@
-package leetcode;
+package labuladong;
 
 import java.util.HashMap;
 
