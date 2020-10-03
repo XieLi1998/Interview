@@ -56,6 +56,8 @@ public class Collections工具类 {
         System.out.println(list);
         s = list.toArray(new String[0]);//没有指定类型的话会报错
         System.out.println(Arrays.toString(s));
+
+        
     }
 
 }
