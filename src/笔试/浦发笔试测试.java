@@ -12,7 +12,7 @@ public class 浦发笔试测试 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int res = lastRemaining(n, 3);
-        System.out.println(n);
+        System.out.println(res);
     }
 
     public static int lastRemaining(int n, int m) {
