@@ -7,7 +7,7 @@ public class 外观数列 {
 
     public String countAndSay(int n) {
         StringBuilder res = new StringBuilder();
-        int p1 = 0, cur = 1;
+        int p1 = 0, cur;
         if (n == 1)
             return "1";
 
