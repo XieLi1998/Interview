@@ -1,6 +1,7 @@
 package 笔试;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -9,10 +10,15 @@ import java.util.Scanner;
 public class 浦发笔试测试 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int res = lastRemaining(n, 3);
-        System.out.println(res);
+//        Scanner sc = new Scanner(System.in);
+//        ArrayList<Integer> list = new ArrayList<>();
+//        while (!sc.hasNext("0")) {
+//            list.add(sc.nextInt());
+//        }
+//        System.out.println(list);
+        int[] dp = new int[]{1, 2, 3, 4, 5};
+        ArrayList<Integer> list = new ArrayList<Integer> ();
+        System.out.println();
     }
 
     public static int lastRemaining(int n, int m) {
